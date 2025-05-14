@@ -6,7 +6,7 @@ import { fadeIn } from "../../variants";
 
 const Work = () => {
   return (
-    <div className="h-full bg-primary/30 py-36 flex items-center">
+    <div className="h-full bg-primary/30 py-36 flex items-center mt-10">
       <Circles />
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-x-8">
@@ -27,8 +27,9 @@ const Work = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-              necessitatibus obcaecati nobis.
+              A showcase of modern, responsive web apps built with React, Next.js, and TypeScript—highlighting my skills in clean UI and smooth user experiences.
+
+
             </motion.p>
           </div>
           <motion.div

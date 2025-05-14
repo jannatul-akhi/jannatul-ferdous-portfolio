@@ -160,7 +160,7 @@ const About = () => {
             exit="hidden"
             className="max-w-[500px]  mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            Three years ago, I began my journey as a developer. Since then, I’ve gained technical skills, completed several courses, and learned how to create responsive designs. I’ve also built various projects to strengthen and showcase my abilities.
+            Three years ago, I began my journey as a developer. Since then, I’ve gained technical skills, completed several courses, and learned how to create responsive designs.
           </motion.p>
           <motion.div
             variants={fadeIn("right", 0.6)}
@@ -238,9 +238,11 @@ const About = () => {
                   key={itemIndex}
                   className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60"
                 >
-                  <div className="font-light mb-2 md:mb-0">{item.title}</div>
+                  {/* className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60" */}
+
+                  <div className="font-light mb-2 md:mb-0 ">{item.title}</div>
                   <div className="hidden md:flex">-</div>
-                  <div>{item.stage}</div>
+                  
                   <div className="flex gap-x-6">
                     {item.icons?.map((icon, itemIndex) => {
                       return (
@@ -250,6 +252,7 @@ const About = () => {
                       );
                     })}
                   </div>
+                  <div>{item.stage}</div>
                 </div>
               );
             })}

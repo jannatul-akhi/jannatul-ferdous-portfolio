@@ -20,7 +20,8 @@ const workSlides = {
         {
           title: "Techno Soft",
           path: "/projects/travel.jpg",
-          liveLink: "https://travel-tips-and-destination-guide-client.vercel.app/",
+          liveLink:
+            "https://travel-tips-and-destination-guide-client.vercel.app/",
           githubLink: "",
         },
         {
@@ -57,6 +58,16 @@ const workSlides = {
           liveLink: "https://lucky-bombolone-991dd3.netlify.app/",
           githubLink: "",
         },
+        {
+          title: "RAAYA SOCIAL",
+          path: "/projects/cms.png",
+          liveLink: "https://cms-raaya-social.vercel.app/",
+          githubLink: "https://github.com/jannatul-akhi/cms-raaya-social",
+        },
+      ],
+    },
+    {
+      images: [
         {
           title: "Geometry Genius",
           path: "/projects/geometry.png",
