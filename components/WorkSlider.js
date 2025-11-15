@@ -18,10 +18,44 @@ const workSlides = {
           githubLink: "",
         },
         {
+          title: "Idea Nest",
+          path: "/projects/idea-nest.jpg",
+          liveLink: "https://indea-nest-frontend.vercel.app/",
+          githubLink: "",
+        },
+        {
+          title: "Vacay Breeze",
+          path: "/projects/vacay-breeze.jpg",
+          liveLink: "https://vacaybreeze.com/",
+          githubLink: "",
+        },
+        {
+          title: "Peak Wellness",
+          path: "/projects/scottohag.png",
+          liveLink: "https://peakwellnessbyscott.com/",
+          githubLink: "",
+        },
+      ],
+    },
+    {
+      images: [
+        {
           title: "Techno Soft",
           path: "/projects/travel.jpg",
           liveLink:
             "https://travel-tips-and-destination-guide-client.vercel.app/",
+          githubLink: "",
+        },
+        {
+          title: "Fresh Harvests",
+          path: "/projects/fresh-harvests.jpg",
+          liveLink: "https://fresh-harvests-website-phi.vercel.app/",
+          githubLink: "",
+        },
+        {
+          title: "Rick & Morty Wiki",
+          path: "/projects/rick-and-morty.jpg",
+          liveLink: "https://ricky-and-montry-wiki.vercel.app/",
           githubLink: "",
         },
         {
@@ -30,16 +64,16 @@ const workSlides = {
           liveLink: "https://car-wash-client-three.vercel.app/",
           githubLink: "",
         },
+      ],
+    },
+    {
+      images: [
         {
           title: "Elegant International",
           path: "/projects/elegant-international.png",
           liveLink: "https://elegant-international.vercel.app/",
           githubLink: "",
         },
-      ],
-    },
-    {
-      images: [
         {
           title: "Smile Health Thailand",
           path: "/projects/smile-health.png",
@@ -58,16 +92,16 @@ const workSlides = {
           liveLink: "https://lucky-bombolone-991dd3.netlify.app/",
           githubLink: "",
         },
+      ],
+    },
+    {
+      images: [
         {
           title: "RAAYA SOCIAL",
           path: "/projects/cms.png",
           liveLink: "https://cms-raaya-social.vercel.app/",
           githubLink: "https://github.com/jannatul-akhi/cms-raaya-social",
         },
-      ],
-    },
-    {
-      images: [
         {
           title: "Geometry Genius",
           path: "/projects/geometry.png",

@@ -102,7 +102,7 @@ const aboutData = [
         stage: "February, 2025 - Running",
       },
       {
-        title: "Backend Developer Intern - Space Zee",
+        title: "Frontend Developer Intern - Space Zee",
         stage: "March, 2025 - Running",
       },
     ],
